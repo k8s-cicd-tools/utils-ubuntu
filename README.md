@@ -16,11 +16,11 @@ Ubuntu to do network tests. Contains Kubernetes manifests, implementation using 
 Alternatively, you can use kubectl directly:
 
 ```
-$ kubectl apply -f path/to/kubernetes/manifests/nginx-hello.yaml
+$ kubectl apply -f path/to/kubernetes/manifests/ubuntu.yaml
 $ kubectl get pods
 $ kubectl exec --stdin --tty <pod-name> -- /bin/bash
 Explore or perform the tests you require.
-$ kubectl delete -f path/to/kubernetes/manifests/nginx-hello.yaml
+$ kubectl delete -f path/to/kubernetes/manifests/ubuntu.yaml
 ```
 
 Alternatively, you can use the Jenkinsfile to run the pipeline:
